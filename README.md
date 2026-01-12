@@ -29,7 +29,7 @@ KULLANILAN TEKNOLOJİLER
 PROJE YAPISI
 
 kütüphane-rezervasyon-sistemi
-│
+
 ├── index.html
 ├── style.css
 └── script.js
