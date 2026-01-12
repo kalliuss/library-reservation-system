@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Kütüphane Rezervasyon Sistemi</title>
+</head>
+<body>
+
+    
+
+
+    <div class="container">
+        
+
+        <div class="row">
+            <div class="seat reserved">7</div>
+            <div class="seat reserved">8</div>
+            <div class="seat ">9</div>
+            <div class="seat">10</div>
+            <div class="seat">11</div>
+            <div class="seat">12</div>
+        </div>
+
+        <div class="masa">
+            <span id="numara">Masa 1</span>
+        </div>
+
+        <div class="row-2">
+            <div class="seat">1</div>
+            <div class="seat">2</div>
+            <div class="seat">3</div>
+            <div class="seat">4</div>
+            <div class="seat">5</div>
+            <div class="seat">6</div>
+        </div>
+    </div>
+
+    <div class="masa-list">
+        <select name="" id="masa">
+            <option >Masa 1</option>
+            <option >Masa 2</option>
+            <option >Masa 3</option>
+            <option >Masa 4</option>
+            <option >Masa 5</option>
+            <option >Masa 6</option>
+            <option >Masa 7</option>
+            <option >Masa 8</option>
+            <option >Masa 9</option>
+            <option >Masa 10</option>
+        </select>
+
+    <ul class="info">
+        <li>
+            <div class="seat selected">
+                <small>Seçili</small>
+            </div>
+        </li>
+        <li>
+            <div class="seat">
+                <small>Boş</small>
+            </div>
+        </li>
+        <li>
+            <div class="seat reserved">
+                <small>Rezerve</small>
+            </div>
+        </li>
+    </ul>
+    
+
+    <p class="text">
+        <span id="count">3</span> adet koltuk seçtiniz, numaralar: <span id="amount"></span>
+    </p>
+
+    
+
+    <footer>
+    <p style="text-align: center; color: #777; margin: 10px 0 0 0; font-size: 14px;">
+        Bu uygulama <strong>kallius</strong> tarafından yapılmıştır.
+    </p>
+    </footer>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
